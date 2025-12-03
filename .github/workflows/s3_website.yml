@@ -24,4 +24,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Copy website to S3
-        run: aws s3 sync . s3://inventoryapp.rrc.ca --exclude "*" --include "index.html"
+        run: aws s3 sync . s3://inventory-app-arshdeep-rishi-2025-12-02 --exclude "*" --include "index.html"
