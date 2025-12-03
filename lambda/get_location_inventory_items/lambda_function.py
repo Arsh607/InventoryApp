@@ -4,7 +4,7 @@ from decimal import Decimal
 from boto3.dynamodb.conditions import Key
 
 dynamodb = boto3.resource("dynamodb")
-table = dynamodb.Table("Inventory")
+table = dynamodb.Table("InventoryApp")
 
 GSI_NAME = "GSI1_LocationItem"  # change if you used a different name
 

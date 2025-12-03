@@ -4,7 +4,7 @@ from decimal import Decimal
 from uuid import uuid4
 
 dynamodb = boto3.resource("dynamodb")
-table = dynamodb.Table("Inventory")
+table = dynamodb.Table("InventoryApp")
 
 
 def lambda_handler(event, context):

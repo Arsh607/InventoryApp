@@ -3,7 +3,7 @@ import boto3
 from decimal import Decimal
 
 dynamodb = boto3.resource("dynamodb")
-table = dynamodb.Table("Inventory")
+table = dynamodb.Table("InventoryApp")
 
 
 def decimal_to_float(obj):
